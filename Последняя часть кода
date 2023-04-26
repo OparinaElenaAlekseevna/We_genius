@@ -1,0 +1,12 @@
+else
+                {
+                    Console.WriteLine("Загаданное число меньше.");
+                }
+
+                attempts--;
+            }
+
+            Console.WriteLine("Вы не угадали число. Загаданное число: " + number);
+        }
+    }
+}
